@@ -14,9 +14,11 @@
   </a>
 </p>
 
-## Introduction
+## What is Ichabod.js?
 
-Faust.js is a framework for building front-end applications for headless WordPress sites. Faust.js provides tooling to reduce the pains of building a headless WordPress site (namely around data fetching, authentication, previews, and SSR/SSG) while offering a pleasant experience for both developers and publishers.
+Ichabod is WebDevStudios' headless framework, based on the powerful Faust.js framework built by WPEngine. Ichabod has the same tooling and features of Faust.js, but augmented with the build scripts, code checking, and other amazing features that make building with WordPress a breeze at WebDevStudios.
+
+*Note: some documentation from Faust.js is preserved for legacy and instructional reason. The original Faust name will be kept in this documentation to alleviate confusion.*
 
 ## Getting Started
 
