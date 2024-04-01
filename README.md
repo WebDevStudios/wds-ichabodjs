@@ -20,6 +20,33 @@ Ichabod is WebDevStudios' headless framework, based on the powerful Faust.js fra
 
 *Note: some documentation from Faust.js is preserved for legacy and instructional reason. The original Faust name will be kept in this documentation to alleviate confusion.*
 
+## Quickstart
+
+Run the following command:
+
+```
+npx create-next-app \
+    -e https://github.com/WebDevStudios/wds-ichabodjs/tree/prod \
+    --example-path examples/next/faustwp-getting-started \
+    --use-npm
+```
+
+Now that the project is created, cd into your new app folder. For example, if you named your project MyProject:
+
+```cd MyProject```
+
+Once inside your project folder root, copy the sample .env.local.sample file and create a new one called .env.local:
+
+```cp .env.local.sample .env.local```
+
+We will update the .env.local variables shortly. But for now, run the local development server:
+
+`npm run dev`
+
+Once the development environment is up and running, navigate to http://localhost:3000 in your browser to view it.
+
+Currently, the posts and pages you see are coming from the WordPress site at https://faustexample.wpengine.com.
+
 ## Getting Started
 
 Faust.js aims to be framework agnostic, so it can be used with any front-end framework. Visit one of the guides below for a starting point:
