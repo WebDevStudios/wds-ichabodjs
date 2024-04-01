@@ -1,9 +1,11 @@
 {
-  "name": "@faustjs/root",
+  "name": "@wds-ichabodjs",
   "private": true,
+	"description": "A headless framework from WebDevStudios - based on WPEngine's Faust.js",
+	"author": "WebDevStudios <contact@webdevstudios.com>",
   "engines": {
-    "node": ">=18",
-    "npm": ">=8"
+    "node": ">=20",
+    "npm": ">=10"
   },
   "workspaces": {
     "packages": [
